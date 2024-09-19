@@ -1,0 +1,21 @@
+.neon-checkbox {
+  display: none;
+}
+
+.neon-label {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: black;
+  border: 2px solid white;
+  text-align: center;
+  display: inline-block;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.neon-checkbox:checked + .neon-label {
+  background-color: #004b4b;
+  box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF, 0 0 30px #00FFFF, 0 0 40px #00FFFF;
+}
